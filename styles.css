@@ -1,0 +1,67 @@
+css
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8ebd0f;
+    text-underline-offset: #000000; ;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(226, 131, 7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+.profile-picture {
+    border-radius: 60%;
+    width: 200px;
+    height: 200px;
+}
+
+h1, h2 {
+    color: #55084b;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #063009;
+    color: white;
+    border: black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #33db1d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .profile-picture {
+        width: 200px;
+        height: 200px;
+    }
+}
