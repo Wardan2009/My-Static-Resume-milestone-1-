@@ -3,17 +3,20 @@ css
 body {
     font-family: Arial, sans-serif;
     background-color: #8ebd0f;
-    text-underline-offset: #000000; ;
+    text-underline-offset: #fdfcfc; ;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    width: 80%;
+    width:50%;
     margin: auto;
-    padding: 20px;
-    background-color: rgb(226, 131, 7);
+    padding: 40px;
+    background-color: rgb(170, 95, 81);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-size-adjust: 30;
+    text-underline-offset: #fdfcfc;
 }
 
 header {
@@ -27,9 +30,23 @@ header {
 }
 
 h1, h2 {
-    color: #55084b;
+    color: #080808;
 }
 
+p {
+    color: #0e0e0e;
+}
+
+li {
+    color: #080808;
+}
+
+li {
+    color: #080808;
+}
+.p text{
+    size: 30;
+}
 ul {
     list-style-type: none;
     padding: 0;
